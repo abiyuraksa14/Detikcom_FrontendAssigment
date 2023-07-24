@@ -1,0 +1,379 @@
+/* Import Teks */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+  font-family: Montserrat;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Navbar */
+
+#nav-utama {
+  background: #007cbd;
+  padding-bottom: 10px;
+  border: none;
+  width: 200%;
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -10px;
+  float: left;
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: -5px;
+  width: 20%;
+}
+
+#nav-isi {
+  margin-top: 20px;
+  display: contents;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#nav-isi li a {
+  color: #fff;
+}
+
+#btn-nav {
+  border-radius: 10px;
+  border: 0;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #007cbd;
+}
+
+/* Isi Beranda */
+#img-beranda {
+  margin-top: -90px;
+  width: 100%;
+}
+
+#teks1 {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: -620px;
+  letter-spacing: 1px;
+}
+
+#teks2 {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 1px;
+  margin-top: 3px;
+}
+
+#teks3 {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-top: 22px;
+}
+
+#btn-beranda {
+  border-radius: 5px;
+  background: #3eb7dd;
+  border: none;
+  padding: 12px 18px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: normal;
+  margin-left: 40%;
+  margin-top: 20px;
+}
+
+/* About */
+#img-about {
+  width: 392px;
+  height: 220.157px;
+  margin-top: 500px;
+  margin-left: 150px;
+  margin-bottom: 200px;
+}
+
+#teks-about1 {
+  color: #007cbd;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 600px;
+  margin-top: -400px;
+}
+
+#teks-about2 {
+  color: #1b1e28;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin-left: 600px;
+}
+
+#teks-about3 {
+  color: #007cbd;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  margin-left: 600px;
+}
+
+#twt-about {
+  width: 21px;
+  height: 21px;
+  margin-left: 650px;
+  margin-top: -63px;
+}
+
+#wa-about {
+  width: 21.5px;
+  height: 21px;
+  margin-left: 680px;
+  margin-top: -103px;
+}
+
+#fb-about {
+  width: 21px;
+  height: 21px;
+  margin-left: 710px;
+  margin-top: -143px;
+}
+
+/* Mekanisme */
+#teks-mekanisme1 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: -840px;
+  margin-left: 300px;
+}
+
+#card1 {
+  width: 50%;
+  margin-left: 300px;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+#teks-card1 {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+
+#teks-card2 {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+
+#teks-card3 {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  margin-top: -50px;
+  margin-left: 80px;
+}
+
+#ol1 {
+  color: #1b1e28;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 95px;
+}
+
+#ol2 {
+  color: #1b1e28;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 95px;
+}
+
+#ol3 {
+  color: #1b1e28;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 95px;
+}
+
+/* Start Up */
+#teks-startup {
+  color: #007cbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#start1 {
+  width: 20%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#start2 {
+  width: 20%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#start3 {
+  width: 20%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#start4 {
+  width: 20%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#start5 {
+  width: 15%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#btn-startup {
+  border-radius: 10px;
+  border: 0;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #007cbd;
+  margin-left: 550px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: normal;
+}
+
+/* Latest Update */
+#teks-update {
+  color: #007cbd;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+#card-update1 {
+  width: 100%;
+}
+
+#img-update {
+  width: 90%;
+}
+
+#t-update1 {
+  color: #1b1e28;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#tmini-update {
+  color: #7a7b7e;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Footer */
+footer {
+  background-color: #007cbd;
+  padding: 20px;
+}
+
+footer h2 {
+  margin-top: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+footer p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}

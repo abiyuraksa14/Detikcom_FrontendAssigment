@@ -1,0 +1,238 @@
+/* Import Teks */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body {
+  font-family: Montserrat;
+  background: #F4FBFF;
+}
+
+* {
+  margin: 0 ;
+  padding: 0;
+}
+
+/* Navbar */
+
+#nav-utama {
+  background: #007cbd;
+  padding-bottom: 10px;
+  border: none;
+  width: 200%;
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -10px;
+  float: left;
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: -5px;
+  width: 20%;
+}
+
+#nav-isi {
+  margin-left: 100px;
+  margin-top: 10px;
+  display: flex;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#nav-isi li a {
+  color: #fff;
+}
+
+#btn-nav {
+  margin-top: -100px;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  color: #007cbd;
+  margin-left: -180px;
+}
+
+/* Beranda */
+#bg-header {
+  margin-top: -90px;
+}
+
+#teks-registrasi {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 540px;
+  margin-bottom: 50px;
+  margin-top: -180px;
+}
+
+#card-registrasi {
+  width: 50%;
+  margin-left: 300px;
+  border-radius: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
+
+/* Footer */
+footer {
+  background-color: #007cbd;
+  padding: 20px;
+}
+
+footer h2 {
+  margin-top: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
+
+footer p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/* Registrasi */
+/* #upload-utama {
+  width: 30%;
+  height: 40%;
+  padding: 5px;
+} */
+
+#form-ket1 {
+  color: var(--gray-3, #828282);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#form-tentang {
+  width: 600px;
+  height: 120px;
+  flex-shrink: 0;
+}
+
+#upload-file {
+  width: 50%;
+  height: 50%;
+}
+
+#form-upload {
+  width: 10%;
+}
+
+#img-plus {
+  border-radius: 100%;
+  margin-top: 0px;
+  height: 50%;
+  width: 30%;
+  margin-left: 50px;
+}
+
+#teks-cardplus {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0px;
+}
+
+#card-upload {
+  background-color: #f8f8f8;
+  width: 60%;
+  height: 100%;
+}
+
+#label-upload {
+  margin-left: 200px;
+}
+
+#teks-check {
+  color: #071424;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#btn-upload {
+  margin-left: 440px;
+  margin-top: -50px;
+  background: #007cbd;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 9px;
+}
+
+#btn-regis {
+  display: flex;
+  width: 220px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #007cbd;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
+#img-about {
+  width: 30%;
+  margin-left: 0px;
+}
+
+#teks-about2 {
+  color: #1b1e28;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin-left: 600px;
+}
+
+#ket {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin-left: 190px;
+  margin-top: -120px;
+  margin-bottom: 80px;
+}
+    
